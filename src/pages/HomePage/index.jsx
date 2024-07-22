@@ -58,6 +58,7 @@ export const HomePage = () => {
     const [isLoading, setIsLoading] = useState(true)
     useEffect(()=>{
         const url = 'https://pe-products-mock.onrender.com/api/products'
+        
         getCursos(url)
         .then(data => setCursos(data))
         .catch((error)=> console.log('error: ',error))
