@@ -28,10 +28,10 @@ export const UsersContextProvider = ({ children }) => {
     // }
 
     const setUserState = () => {
-        const tokenUser = getUserToken()
-        if (tokenUser) {
-            setUser(tokenUser)
-        }
+        // const tokenUser = getUserToken()
+        // if (tokenUser) {
+        //     setUser(tokenUser)
+        // }
     }
 
    

@@ -6,7 +6,7 @@ export const CursosList = ({cursos=[]}) => {
         <>
 
             
-            {cursos.map(curso => <CursoCard key={curso.id} {...curso} />)}
+            {cursos.map(curso => <CursoCard key={curso._id} {...curso} />)}
         </>
     )
 }

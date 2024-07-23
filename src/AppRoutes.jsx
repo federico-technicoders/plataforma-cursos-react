@@ -18,10 +18,11 @@ function AppRoutes() {
                             <Route path="/" element={<HomePage />} />
                             <Route path="/login" element={<Login />} />
                             <Route path="/register" element={<Register />} />
-                            <Route path="/notfound404" element={<NotFound404 />} />
                             <Route path="/detalle/:cid" element={<CursoDetailPage />} />                        
+                            <Route path="/category/:cid" element={<HomePage />} />
                             <Route path="/cart" element={<CartPage />} />                   
                             <Route path="/favorite" element={<FavoritePage />} />
+                            <Route path="/notfound404" element={<NotFound404 />} />
 
                             <Route path="*" element={<Navigate to={'/notfound404'} />} />
                         </Routes>
